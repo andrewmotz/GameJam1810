@@ -35,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
         {
             horizontalMove = 0;
         }
-        Debug.Log(Input.GetAxisRaw("Horizontal"));
 
         if (Input.GetKey(JumpKey))
         {
