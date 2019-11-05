@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public KeyCode RightAxis = KeyCode.D;
     public KeyCode LeftAxis = KeyCode.A;
+    public KeyCode JumpKey = KeyCode.Space;
 
     public float runSpeed = 40f;
 
@@ -25,16 +26,18 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(RightAxis))
         {
             horizontalMove = 1 * runSpeed;
+
         } else if (Input.GetKey(LeftAxis))
         {
             horizontalMove = -1 * runSpeed;
+
         } else
         {
             horizontalMove = 0;
         }
         Debug.Log(Input.GetAxisRaw("Horizontal"));
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKey(JumpKey))
         {
             jump = true;
         }
