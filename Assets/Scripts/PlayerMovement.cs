@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public KeyCode RightAxis = KeyCode.D;
     public KeyCode LeftAxis = KeyCode.A;
+    public string CrouchKey = "C";
     public KeyCode JumpKey = KeyCode.Space;
 
     public float runSpeed = 40f;
@@ -41,14 +42,16 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
 
-        if (Input.GetButtonDown("Crouch"))
+        /*
+        if (Input.GetButtonDown(CrouchKey))
         {
             crouch = true;
         }
-        else if (Input.GetButtonUp("Crouch"))
+        else if (Input.GetButtonUp(CrouchKey))
         {
             crouch = false;
         }
+        */
         
     }
 
