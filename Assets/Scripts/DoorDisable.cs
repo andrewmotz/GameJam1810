@@ -4,30 +4,19 @@ using UnityEngine;
 
 public class DoorDisable : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     public GameObject door;
-    //public GameObject button;
-
-    void Start()
-    {
-        
-    }
+    public Animator animator;
 
     void OnTriggerEnter2D(Collider2D other){
         Debug.Log("Triggered");
         if(other.gameObject.CompareTag("Player 1")){
             door.gameObject.SetActive(false);
             Debug.Log("Door opened");
+            animator.SetTrigger("pressed");
         } else if(other.gameObject.CompareTag("Player 2")){
             door.gameObject.SetActive(false);
             Debug.Log("Door opened");
+            animator.SetTrigger("pressed");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

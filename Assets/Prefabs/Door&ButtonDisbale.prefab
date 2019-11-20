@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4116888333571091351}
   - component: {fileID: 6352162764370508482}
   - component: {fileID: 3268851847227984127}
-  - component: {fileID: 9033935811025925164}
+  - component: {fileID: 5987127061193990349}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4706154212417870614}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9718509, y: -4.355059, z: -6.899726}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children: []
@@ -94,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 4706154212417870614}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 549b2894ecf065542bfcda8871881fe3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 87a860da2914fa14e91b3fc3916c8183, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,7 +155,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4993447, y: 0.09152642}
   m_EdgeRadius: 0
---- !u!114 &9033935811025925164
+--- !u!114 &5987127061193990349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4706154212417870614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c54a91b4237d7d54ebaca09c8bc30268, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b80ad16049698540aa036b3a3c46c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 7823211591684448830}
@@ -179,7 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4692042233230971908}
   m_Layer: 0
-  m_Name: ToggleDoor&Button
+  m_Name: Door&ButtonDisbale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
