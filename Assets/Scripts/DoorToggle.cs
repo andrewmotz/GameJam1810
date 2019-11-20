@@ -17,6 +17,10 @@ public class DoorToggle : MonoBehaviour
             door.gameObject.SetActive(false);
             animator.SetTrigger("pressed");
             Debug.Log("Door opened");
+        } else if(other.gameObject.CompareTag("Pushable")){
+            door.gameObject.SetActive(false);
+            animator.SetTrigger("pressed");
+            Debug.Log("Door opened");
         }
     }
 
