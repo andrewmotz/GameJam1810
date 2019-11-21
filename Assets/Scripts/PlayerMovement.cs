@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode LeftAxis = KeyCode.A;
     public string CrouchKey = "C";
     public KeyCode JumpKey = KeyCode.Space;
+    public Animator animator;
 
     public float runSpeed = 40f;
 
@@ -27,14 +28,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(RightAxis))
         {
             horizontalMove = 1 * runSpeed;
+            animator.SetTrigger("walking");
 
         } else if (Input.GetKey(LeftAxis))
         {
             horizontalMove = -1 * runSpeed;
-
+            animator.SetTrigger("walking");
         } else
         {
             horizontalMove = 0;
+            animator.SetTrigger("idle");
         }
 
         if (Input.GetKey(JumpKey))
