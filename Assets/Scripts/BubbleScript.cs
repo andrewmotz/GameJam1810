@@ -6,14 +6,11 @@ public class BubbleScript : MonoBehaviour
 {
 
     public Animator animator;
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static int popCount = 0;
 
     void OnTriggerEnter2D(Collider2D other){
         Debug.Log("hit");
         animator.SetTrigger("hit");
+        popCount++;
     }
 }
