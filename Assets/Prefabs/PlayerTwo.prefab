@@ -81,9 +81,12 @@ MonoBehaviour:
   controller: {fileID: 6814787305090698161}
   RightAxis: 108
   LeftAxis: 106
+  FallKey: 107
+  fallMultiplyer: 4
   CrouchKey: N
   JumpKey: 109
   animator: {fileID: 9128758546821412457}
+  rigidbody2d: {fileID: 6814787305090698156}
   runSpeed: 120
 --- !u!61 &6814787305090698159
 BoxCollider2D:
