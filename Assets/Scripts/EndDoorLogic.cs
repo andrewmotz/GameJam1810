@@ -6,6 +6,7 @@ public class EndDoorLogic : MonoBehaviour
 {
 
     public int popThersehold;
+    private int count = 0;
     public GameObject toDisable;
     public AudioSource EndDoorSound;
     private bool playedSound = false;
@@ -15,7 +16,7 @@ public class EndDoorLogic : MonoBehaviour
     void Update()
     {
         Debug.Log("Pop count is " + BubbleScript.popCount);
-        if(BubbleScript.popCount  >= popThersehold){
+        if(count  >= popThersehold){
             Debug.Log("End door opened");
             if(!playedSound){
                 EndDoorSound.Play();
@@ -26,5 +27,9 @@ public class EndDoorLogic : MonoBehaviour
             toDisable.gameObject.SetActive(false);
         }
 
+    }
+
+    public void increaseCount(){
+        count++;
     }
 }

@@ -18,6 +18,7 @@ public class DoorToggle : MonoBehaviour
                 PressSound.Play();
             }
         animator.SetTrigger("pressed");
+        door.gameObject.SetActive(false);
     }
 
     void OnTriggerExit2D(Collider2D other){

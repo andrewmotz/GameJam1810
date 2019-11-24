@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3021026567751581594}
+  GOendDoor: {fileID: 0}
 --- !u!82 &6963317940462672385
 AudioSource:
   m_ObjectHideFlags: 0
