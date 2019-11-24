@@ -8,12 +8,17 @@ public class BubbleScript : MonoBehaviour
     public Animator animator;
     public GameObject EndDoor;
     private EndDoorLogic endDoorScript;
-    public static int popCount = 0;
+    private bool isTriggered = false;
 
-    void OnTriggerEnter2D(Collider2D other){
+    void OnTriggerEnter2D(Collider2D other)
+    {
         endDoorScript = EndDoor.GetComponent<EndDoorLogic>();
         Debug.Log("hit");
         animator.SetTrigger("hit");
-        endDoorScript.increaseCount();
+        if (!isTriggered)
+        {
+            endDoorScript.increaseCount();
+            isTriggered = true;
+        }
     }
 }

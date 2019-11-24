@@ -15,7 +15,7 @@ public class EndDoorLogic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Pop count is " + BubbleScript.popCount);
+        Debug.Log("Pop count is " + count);
         if(count  >= popThersehold){
             Debug.Log("End door opened");
             if(!playedSound){

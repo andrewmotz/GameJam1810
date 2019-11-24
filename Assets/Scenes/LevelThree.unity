@@ -1897,7 +1897,7 @@ PrefabInstance:
     - target: {fileID: 4692042233230971908, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.72
+      value: 17.72
       objectReference: {fileID: 0}
     - target: {fileID: 4692042233230971908, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
         type: 3}
@@ -2111,6 +2111,11 @@ PrefabInstance:
       propertyPath: popThersehold
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7840114745555942740, guid: 14ce9f114c6b01e43aa46159b315070b,
+        type: 3}
+      propertyPath: sceneIndex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ce9f114c6b01e43aa46159b315070b, type: 3}
 --- !u!1001 &1796691076
@@ -2128,7 +2133,7 @@ PrefabInstance:
     - target: {fileID: 4692042233230971908, guid: a033901abafa6ff498541c89a4ebf81a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 4692042233230971908, guid: a033901abafa6ff498541c89a4ebf81a,
         type: 3}
