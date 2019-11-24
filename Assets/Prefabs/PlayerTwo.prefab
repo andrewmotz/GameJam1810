@@ -83,12 +83,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 6814787305090698161}
-  RightAxis: 108
-  LeftAxis: 106
-  FallKey: 107
+  RightAxis: 275
+  LeftAxis: 276
+  FallKey: 274
   fallMultiplyer: 4
   CrouchKey: N
-  JumpKey: 105
+  JumpKey: 273
   animator: {fileID: 9128758546821412457}
   rigidbody2d: {fileID: 6814787305090698156}
   runSpeed: 120
