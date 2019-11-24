@@ -4085,6 +4085,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 184513487701465360, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 184513487701465360, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.03
+      objectReference: {fileID: 0}
     - target: {fileID: 1867972400588827378, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
         type: 3}
       propertyPath: m_LocalRotation.z
@@ -4109,16 +4119,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 7.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 184513487701465360, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 23.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 184513487701465360, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 37.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e3ec9ce4e7fb9446a7a5e17f70cce37, type: 3}
@@ -4739,7 +4739,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 21.416437
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4763,7 +4763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547608438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8, z: -10}
+  m_LocalPosition: {x: 0.8, y: 8.2, z: -10}
   m_LocalScale: {x: 3.60822, y: 2.29614, z: 1.2496}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5425,6 +5425,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8876149776561209020, guid: 83d0272e3c5136146bb7da70e2ea375f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: adcdc048a975d2c41b5dbb5056567056, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83d0272e3c5136146bb7da70e2ea375f, type: 3}
 --- !u!1 &1840404605
