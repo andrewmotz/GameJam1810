@@ -6245,6 +6245,11 @@ PrefabInstance:
       propertyPath: popThersehold
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7840114745555942740, guid: 14ce9f114c6b01e43aa46159b315070b,
+        type: 3}
+      propertyPath: sceneIndex
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ce9f114c6b01e43aa46159b315070b, type: 3}
 --- !u!1001 &1667627086
