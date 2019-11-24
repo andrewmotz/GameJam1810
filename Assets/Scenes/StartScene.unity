@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 220953946}
   - component: {fileID: 220953945}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18693fa638573c649985000ed7bfeb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
+  sceneIndex: 1
 --- !u!1 &476122897
 GameObject:
   m_ObjectHideFlags: 0
