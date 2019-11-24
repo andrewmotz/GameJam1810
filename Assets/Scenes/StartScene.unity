@@ -310,7 +310,7 @@ MonoBehaviour:
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18693fa638573c649985000ed7bfeb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
+  sceneIndex: 1
 --- !u!1 &476122897
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,7 +870,7 @@ MonoBehaviour:
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
